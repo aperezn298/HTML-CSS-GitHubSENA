@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <h1>Crucigrama - Etapa Productiva SENA</h1>
+    
+    <div class="container">
+        <div>
+            <table class="crossword-grid" id="grid"></table>
+        </div>
+
+        <div class="clues">
+            <h2>Claves</h2>
+            <h3>Horizontales:</h3>
+            <ol>
+                <li>Etapa que complementa y consolida el proceso de formación del aprendiz en el SENA</li>
+                <li>Proceso que debe garantizarse para todas las alternativas de la etapa práctica</li>
+                <li>El desarrollo de la Etapa Practica, debe estar relacionada directamente con las __________ del programa de formación</li>
+            </ol>
+
+            <h3>Verticales:</h3>
+            <ol start="4">
+                <li>Tipo de visita que realiza el representante del SENA durante el desarrollo de la etapa practica</li>
+                <li>Persona que debe tener el perfil y experiencia relacionada para hacer seguimiento de la etapa practica</li>
+                <li>Persona que debe aprobar todas las competencias de la etapa lectiva antes de iniciar la etapa practica</li>
+            </ol>
+
+            <div>
+                <button class="btn" onclick="validateCrossword()">Validar Respuestas</button>
+                <div id="message" class="message"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="process.js"></script>
+</body>
+</html>
